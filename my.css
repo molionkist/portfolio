@@ -4,14 +4,14 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .name {
     color: orange;
 }
 
-section {
+.flex {
     display: flex;
 
 }
@@ -44,6 +44,44 @@ section {
 
 }
 
-.part-2 {
-    margin-top: 10%;
+.items {
+    display: flex;
+    width: 50%;
+}
+
+.last-part {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 4px;
+    box-shadow: 10px 10px 40px lightcoral;
+    border-left: 7px solid;
+}
+
+#last {
+    border-left: 7px solid;
+    border-image:
+        linear-gradient(to bottom,
+            red,
+            rgba(0, 0, 0, 0)) 1 100%;
+    /* border-image-slice: 1; */
+
+}
+
+#lastt {
+    border-left: 7px solid;
+    border-image:
+        linear-gradient(to bottom,
+            red,
+            rgba(0, 0, 0, 0)) 1 100%;
+
+}
+
+#footr {
+    background-color: rgb(19, 13, 13);
+    text-align: center;
+    color: rgb(250, 233, 233);
+
 }
