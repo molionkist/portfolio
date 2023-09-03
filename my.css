@@ -1,0 +1,43 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.name {
+    color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 10%;
+
+}
+
+.half-width img {
+    width: 50%;
+
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: rgb(33, 240, 240);
+    border-radius: 4px;
+    color: rgb(29, 6, 6);
+    font-weight: 800;
+    background-image: linear-gradient(rgb(27, 210, 243) rgb(89, 71, 255));
+
+}
+
+.top-banner {
+    background-image: url(backimgg.png);
+    background-repeat: no-repeat;
+
+}
