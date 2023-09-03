@@ -1,5 +1,6 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
+
 }
 
 h1 {
@@ -12,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+
 }
 
 .half-width {
@@ -21,7 +23,7 @@ section {
 }
 
 .half-width img {
-    width: 50%;
+    width: 70%;
 
 }
 
@@ -40,4 +42,8 @@ section {
     background-image: url(backimgg.png);
     background-repeat: no-repeat;
 
+}
+
+.part-2 {
+    margin-top: 10%;
 }
